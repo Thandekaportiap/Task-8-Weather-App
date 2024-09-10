@@ -2,11 +2,14 @@
 import React from 'react'
 import Card from '../component/card';
 import Card2 from '../component/card2';
+import axios from "axios"
 import { TiWeatherWindy } from "react-icons/ti";
 import { GiDrop } from "react-icons/gi";
 import { FaMoon } from "react-icons/fa";
 
 const Home = () => {
+
+  const apiKey = "f3887e262c88d1158f7e2ef4998e234c"
    
   return (
     <>
